@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { Projects } from '../Projects';
 describe('Projects Component', () => {

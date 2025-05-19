@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import { TechStack } from '../TechStack';
 describe('TechStack Component', () => {
