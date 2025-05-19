@@ -21,7 +21,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://www.infinion.co",
     liveLink: "https://www.infinion.co",
     image: infinion,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/print-forge",
     liveLink: "https://print-forge-zeta.vercel.app/",
     image: forge,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["Next", "TypeScript","Tailwind CSS"],
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/learning-journal",
     liveLink: "https://visionary-semolina-39567a.netlify.app/",
     image: learning,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/wig-e-commerce",
     liveLink: "https://wig-e-commerce.vercel.app/",
     image: wig,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/quizzical-app",
     liveLink: "https://cheery-parfait-37ad05.netlify.app/",
     image: quizzical,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/password-generator",
     liveLink: "https://mellifluous-lokum-877eb8.netlify.app/",
     image: password,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/weather-app",
     liveLink: "https://weather-app-sisivero.vercel.app/",
     image: waether,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 8,
@@ -91,7 +91,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/color-scheme-generator",
     liveLink: "https://profound-brioche-edeccd.netlify.app/",
     image: color,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 9,
@@ -101,7 +101,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/we-are-champions",
     liveLink: "https://rainbow-crumble-7cc05b.netlify.app/",
     image: endorsement,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 10,
@@ -111,7 +111,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/Mobile-restaurant",
     liveLink: "https://bright-pavlova-d3f7f6.netlify.app/",
     image: restaurant,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 11,
@@ -121,7 +121,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/Scoreboard",
     liveLink: "https://codepen.io/SisiVero/pen/oNMGoLw",
     image: scoreboard,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
     id: 12,
@@ -131,7 +131,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/firebase-app",
     liveLink: "https://sunny-cuchufli-91076a.netlify.app/",
     image: cart,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   }
   ,
   {
@@ -142,7 +142,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/firebase-app",
     liveLink: "https://sunny-cuchufli-91076a.netlify.app/",
     image: cart,
-    tags: ["React", "TypeScript", "Styled Components", "Storybook"],
+    tags: ["React", "TypeScript","Tailwind CSS"],
   }
 ];
 

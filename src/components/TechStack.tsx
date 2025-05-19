@@ -71,7 +71,7 @@ export function TechStack() {
             </div>)}
         </div>
         <div className="mt-16 bg-blue-50 dark:bg-gray-800 rounded-lg p-8 border border-blue-100 dark:border-gray-700">
-          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+          <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 md:text-center">
             Core Expertise
           </h3>
           <div className="grid md:grid-cols-2 gap-6">

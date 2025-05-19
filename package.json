@@ -3,12 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "preview": "npx vite preview"
-  },
+"scripts": {
+  "dev": "npx vite",
+  "build": "npx vite build",
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+  "preview": "npx vite preview",
+  "test": "vitest",
+  "test:ui": "vitest --ui",
+  "test:coverage": "vitest run --coverage"
+},
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^11.5.4",
