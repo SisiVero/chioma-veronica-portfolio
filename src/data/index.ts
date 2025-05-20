@@ -11,6 +11,7 @@ import restaurant from "../assets/png/restaurantapp.png";
 import scoreboard from "../assets/png/scoreboard.png";
 import cart from "../assets/png/cart.png";
 import forge from "../assets/png/forge.png";
+import portfolio from "../assets/png/portfolio.png";
 
 export const allProjects: ProjectType[] = [
   {
@@ -138,11 +139,11 @@ export const allProjects: ProjectType[] = [
     id: 13,
     name: "Portfolio",
     description:
-      "This a cart webApp, that is connected to firebase to help save user data(list of items). It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path",
+      "This a portfolio website showcasing most of my projects",
     githubLink: "https://github.com/SisiVero/firebase-app",
     liveLink: "https://sunny-cuchufli-91076a.netlify.app/",
-    image: cart,
-    tags: ["React", "TypeScript","Tailwind CSS"],
+    image: portfolio,
+    tags: ["React", "TypeScript","Tailwind CSS", "Jest"],
   }
 ];
 

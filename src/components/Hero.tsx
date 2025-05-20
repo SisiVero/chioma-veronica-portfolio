@@ -78,11 +78,11 @@ export function Hero() {
                 className="w-60 h-60 md:w-72 md:h-72 rounded-full object-cover border-4 border-white dark:border-gray-700 shadow-lg"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 rounded-full p-4 shadow-lg">
+            {/* <div className="absolute -bottom-4 -right-4 bg-white dark:bg-gray-800 rounded-full p-4 shadow-lg">
               <span className="text-blue-600 dark:text-blue-400 font-bold">
                 5+ Years Experience
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
