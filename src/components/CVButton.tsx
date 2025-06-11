@@ -10,7 +10,7 @@ export function CVButton() {
   }} transition={{
     duration: 0.5
   }} className="fixed bottom-8 right-8 z-50">
-      <motion.a href="../assets/pdf/Chioma-Veronica-Ezezim.pdff" 
+      <motion.a href="../assets/pdf/Chioma-Veronica-Ezezim.pdf" 
     download="Chioma-Veronica-Ezezim.pdf" className="flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all" whileHover={{
       scale: 1.05
     }} whileTap={{
