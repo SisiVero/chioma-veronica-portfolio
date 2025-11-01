@@ -5,5 +5,5 @@
     githubLink?: string
     image: string
     tags: string[]
-    liveLink: string
+    liveLink?: string
   }

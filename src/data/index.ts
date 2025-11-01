@@ -1,61 +1,103 @@
 import { ProjectType } from "../types/types";
 import infinion from "../assets/png/infinion.png";
-import learning from "../assets/png/my-learning-journal.png";
-import wig from "../assets/png/wigdealers.png";
+import dashboard from "../assets/png/dashboard.png";
+import tax from "../assets/png/tax.png";
 import quizzical from "../assets/png/quizzical.png";
 import password from "../assets/png/passwordgenerator.png";
 import waether from "../assets/png/weatherapp.png";
 import color from "../assets/png/colorscheme.png";
-import endorsement from "../assets/png/endorsementapp.png";
+// import endorsement from "../assets/png/endorsementapp.png";
 import restaurant from "../assets/png/restaurantapp.png";
-import scoreboard from "../assets/png/scoreboard.png";
-import cart from "../assets/png/cart.png";
+import alphaPins from "../assets/png/alphaPins.png";
+// import cart from "../assets/png/cart.png";
 import forge from "../assets/png/forge.png";
 import portfolio from "../assets/png/portfolio.png";
 
 export const allProjects: ProjectType[] = [
+  
+  {
+    id: 11,
+    name: "Tax Calculator(work in progress)",
+    description:
+      "This a tax calculator designed to help Nigerians calculate the total amount of tax expected of each citizen annualy. It also conatians guide, vides and quizes section to ascertain how much knowledge a person has about the Nigerian tax system.",
+    // githubLink: "https://github.com/SisiVero/Scoreboard",
+    // liveLink: "https://codepen.io/SisiVero/pen/oNMGoLw",
+    image: tax,
+    tags: ["Next JS", "TypeScript","Tailwind CSS", "Framer motion"],
+  },
+  
+  {
+    id: 12,
+    name: "Alpha Pins",
+    description:
+      "A web app where users can boost their socila media followers, likes and views",
+    // githubLink: "https://github.com/SisiVero/firebase-app",
+    liveLink: "https://alphapins-frontend.vercel.app/app",
+    image: alphaPins,
+    tags: ["React", "TypeScript","Tailwind CSS", "Radix UI", "RTK"],
+  },
+  {
+    id: 9,
+    name: "Dashboard",
+    description:
+      "A random dashboard",
+    githubLink: "https://github.com/SisiVero/assessment",
+    liveLink: "https://assessment-zeta-three.vercel.app/home",
+    image: dashboard,
+    tags: ["React", "TypeScript","Vitest", "RTK", "Tailwind CSS", "Radix UI"],
+  },
   {
     id: 1,
     name: "Infinion Website",
     description:
-      "The official website of Infinion rebuilt with a teammate, replacing a slower Next.js version with a faster, cleaner React.js implementation focused on simplicity and ease of use - code (NDA)",
-    githubLink: "https://www.infinion.co",
+      "The official website of Infinion rebuilt with a teammate, replacing a slower Next.js version with a faster, cleaner React.js implementation focused on simplicity and optimization",
+    // githubLink: "https://www.infinion.co",
     liveLink: "https://www.infinion.co",
     image: infinion,
     tags: ["React", "TypeScript","Tailwind CSS"],
   },
-  {
+    {
     id: 2,
-    name: "Print Forge",
+    name: "Portfolio",
     description:
-      "A simple web application built with NextJs, tailwind and Typescript. It is a completion project for the Csrimba NextJs course",
-    githubLink: "https://github.com/SisiVero/print-forge",
-    liveLink: "https://print-forge-zeta.vercel.app/",
-    image: forge,
-    tags: ["Next", "TypeScript","Tailwind CSS"],
+      "This a portfolio website showcasing some of my projects",
+    githubLink: "https://github.com/SisiVero/firebase-app",
+    liveLink: "https://veronica-portfolio-kappa.vercel.app/",
+    image: portfolio,
+    tags: ["React", "TypeScript","Tailwind CSS", "Jest"],
   },
   {
     id: 3,
-    name: "Learning Journal",
+    name: "Print Forge",
     description:
-      "A solo project assigned by scrimba on frontend career path. Built with HTML and CSS. It is responsive",
-    githubLink: "https://github.com/SisiVero/learning-journal",
-    liveLink: "https://visionary-semolina-39567a.netlify.app/",
-    image: learning,
-    tags: ["React", "TypeScript","Tailwind CSS"],
+      "A simple web application built with NextJs, tailwind and Typescript.",
+    githubLink: "https://github.com/SisiVero/print-forge",
+    liveLink: "https://print-forge-zeta.vercel.app/",
+    image: forge,
+    tags: ["Next Js", "TypeScript","Tailwind CSS"],
   },
+  // {
+  //   id: 3,
+  //   name: "Learning Journal",
+  //   description:
+  //     "A solo project assigned by scrimba on frontend career path. Built with HTML and CSS. It is responsive",
+  //   githubLink: "https://github.com/SisiVero/learning-journal",
+  //   liveLink: "https://visionary-semolina-39567a.netlify.app/",
+  //   image: learning,
+  //   tags: ["React", "TypeScript","Tailwind CSS"],
+  // },
+  // {
+  //   id: 4,
+  //   name: "Wig Dealers",
+  //   description:
+  //     "Built from scratch, with ReactJs and CSS. An online market place for just wigs. Users can create account to be able to add items to cart. Admins have higher permissions to add new wigs to the home page. There is a separate sign up page for admin, admin can navigate to dashboard to perform some actions.Responsive",
+  //   githubLink: "https://github.com/SisiVero/wig-e-commerce",
+  //   liveLink: "https://wig-e-commerce.vercel.app/",
+  //   image: wig,
+  //   tags: ["React", "TypeScript","Tailwind CSS"],
+  // },
   {
     id: 4,
-    name: "Wig Dealers",
-    description:
-      "Built from scratch, with ReactJs and CSS. An online market place for just wigs. Users can create account to be able to add items to cart. Admins have higher permissions to add new wigs to the home page. There is a separate sign up page for admin, admin can navigate to dashboard to perform some actions.Responsive",
-    githubLink: "https://github.com/SisiVero/wig-e-commerce",
-    liveLink: "https://wig-e-commerce.vercel.app/",
-    image: wig,
-    tags: ["React", "TypeScript","Tailwind CSS"],
-  },
-  {
-    id: 5,
     name: "Quizzical",
     description:
       "This is a quizzical web app built with React.js and CSS. It was built as a part of Scrimba's Frontend Developer Career Path. It is a responsive site that can be viewed on Desktop and Mobile devices. It consists of two pages: Welcome page and Quiz page",
@@ -65,7 +107,7 @@ export const allProjects: ProjectType[] = [
     tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
-    id: 6,
+    id: 5,
     name: "Password Generator",
     description:
       "This is a Password Generator Web App. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path.",
@@ -75,7 +117,7 @@ export const allProjects: ProjectType[] = [
     tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
-    id: 7,
+    id: 6,
     name: "Weather App",
     description:
       "A weather app built with data fetched from openmapweather api. Built with ReactJs",
@@ -85,7 +127,7 @@ export const allProjects: ProjectType[] = [
     tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
-    id: 8,
+    id: 7,
     name: "Color Scheme Generator",
     description:
       "This is a sample of a Color Scheme Generator. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path",
@@ -95,17 +137,7 @@ export const allProjects: ProjectType[] = [
     tags: ["React", "TypeScript","Tailwind CSS"],
   },
   {
-    id: 9,
-    name: "Endorsement App",
-    description:
-      "This is a web app endorsement app. It is built using vanilla CSS, JavaScript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path. It is integrated with Firebase to store data.",
-    githubLink: "https://github.com/SisiVero/we-are-champions",
-    liveLink: "https://rainbow-crumble-7cc05b.netlify.app/",
-    image: endorsement,
-    tags: ["React", "TypeScript","Tailwind CSS"],
-  },
-  {
-    id: 10,
+    id: 8,
     name: "Mobile Restaurant",
     description:
       "This a mobile restauarnt that displays the menu and price, and totals your order when you are done ordering. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path.",
@@ -113,38 +145,9 @@ export const allProjects: ProjectType[] = [
     liveLink: "https://bright-pavlova-d3f7f6.netlify.app/",
     image: restaurant,
     tags: ["React", "TypeScript","Tailwind CSS"],
-  },
-  {
-    id: 11,
-    name: "Scoreboard",
-    description:
-      "This is a basketball scoreboard that displays the count when you click on any of the numbers. It is one of Scrimba Frontend Career Path solo proects. Built with HTML, CSS and Javascript.",
-    githubLink: "https://github.com/SisiVero/Scoreboard",
-    liveLink: "https://codepen.io/SisiVero/pen/oNMGoLw",
-    image: scoreboard,
-    tags: ["React", "TypeScript","Tailwind CSS"],
-  },
-  {
-    id: 12,
-    name: "Shopping Cart",
-    description:
-      "This a cart webApp, that is connected to firebase to help save user data(list of items). It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path",
-    githubLink: "https://github.com/SisiVero/firebase-app",
-    liveLink: "https://sunny-cuchufli-91076a.netlify.app/",
-    image: cart,
-    tags: ["React", "TypeScript","Tailwind CSS"],
   }
-  ,
-  {
-    id: 13,
-    name: "Portfolio",
-    description:
-      "This a portfolio website showcasing most of my projects",
-    githubLink: "https://github.com/SisiVero/firebase-app",
-    liveLink: "https://sunny-cuchufli-91076a.netlify.app/",
-    image: portfolio,
-    tags: ["React", "TypeScript","Tailwind CSS", "Jest"],
-  }
+  
+
 ];
 
 // const allProjects = [

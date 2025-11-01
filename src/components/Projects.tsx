@@ -59,13 +59,14 @@ export function Projects() {
                   </div>
                   <div className="flex space-x-3">
                     <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium">
-                      <ExternalLinkIcon size={16} className="mr-1" />
-                      Live Demo
+                      { project.liveLink ? <ExternalLinkIcon size={16} className="mr-1" /> : ""}
+                      {project.liveLink ? 'Live Demo' : ''}
                     </a>
-                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white font-medium">
-                      <GithubIcon size={16} className="mr-1" />
+                   { project.githubLink ? <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white font-medium">
+                      
+                    <GithubIcon size={16} className="mr-1" />
                       Code
-                    </a>
+                    </a> : ""}
                   </div>
                 </div>
               </motion.div>)}
