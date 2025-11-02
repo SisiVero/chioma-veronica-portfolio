@@ -1,5 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
+import { describe, test, expect } from 'vitest';
 import { Contact } from '../Contact';
 describe('Contact Component', () => {
   test('renders contact information', () => {

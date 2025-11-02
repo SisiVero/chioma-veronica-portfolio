@@ -64,7 +64,7 @@ export const allProjects: ProjectType[] = [
     githubLink: "https://github.com/SisiVero/firebase-app",
     liveLink: "https://veronica-portfolio-kappa.vercel.app/",
     image: portfolio,
-    tags: ["React", "TypeScript","Tailwind CSS", "Jest"],
+    tags: ["React", "TypeScript","Tailwind CSS", "Vitest"],
   },
   {
     id: 3,
