@@ -2,12 +2,12 @@ import { ProjectType } from "../types/types";
 import infinion from "../assets/png/infinion.png";
 import dashboard from "../assets/png/dashboard.png";
 import tax from "../assets/png/tax.png";
-import quizzical from "../assets/png/quizzical.png";
+// import quizzical from "../assets/png/quizzical.png";
 import password from "../assets/png/passwordgenerator.png";
 import waether from "../assets/png/weatherapp.png";
-import color from "../assets/png/colorscheme.png";
+// import color from "../assets/png/colorscheme.png";
 // import endorsement from "../assets/png/endorsementapp.png";
-import restaurant from "../assets/png/restaurantapp.png";
+// import restaurant from "../assets/png/restaurantapp.png";
 import alphaPins from "../assets/png/alphaPins.png";
 // import cart from "../assets/png/cart.png";
 import forge from "../assets/png/forge.png";
@@ -50,7 +50,7 @@ export const allProjects: ProjectType[] = [
     id: 1,
     name: "Infinion Website",
     description:
-      "The official website of Infinion rebuilt with a teammate, replacing a slower Next.js version with a faster, cleaner React.js implementation focused on simplicity and optimization",
+      "The official website of Infinion, replacing a slower Next.js version with a faster, cleaner React.js implementation focused on simplicity and optimization",
     // githubLink: "https://www.infinion.co",
     liveLink: "https://www.infinion.co",
     image: infinion,
@@ -96,16 +96,16 @@ export const allProjects: ProjectType[] = [
   //   image: wig,
   //   tags: ["React", "TypeScript","Tailwind CSS"],
   // },
-  {
-    id: 4,
-    name: "Quizzical",
-    description:
-      "This is a quizzical web app built with React.js and CSS. It was built as a part of Scrimba's Frontend Developer Career Path. It is a responsive site that can be viewed on Desktop and Mobile devices. It consists of two pages: Welcome page and Quiz page",
-    githubLink: "https://github.com/SisiVero/quizzical-app",
-    liveLink: "https://cheery-parfait-37ad05.netlify.app/",
-    image: quizzical,
-    tags: ["React", "TypeScript","Tailwind CSS"],
-  },
+  // {
+  //   id: 4,
+  //   name: "Quizzical",
+  //   description:
+  //     "This is a quizzical web app built with React.js and CSS. It was built as a part of Scrimba's Frontend Developer Career Path. It is a responsive site that can be viewed on Desktop and Mobile devices. It consists of two pages: Welcome page and Quiz page",
+  //   githubLink: "https://github.com/SisiVero/quizzical-app",
+  //   liveLink: "https://cheery-parfait-37ad05.netlify.app/",
+  //   image: quizzical,
+  //   tags: ["React", "TypeScript","Tailwind CSS"],
+  // },
   {
     id: 5,
     name: "Password Generator",
@@ -125,27 +125,27 @@ export const allProjects: ProjectType[] = [
     liveLink: "https://weather-app-sisivero.vercel.app/",
     image: waether,
     tags: ["React", "TypeScript","Tailwind CSS"],
-  },
-  {
-    id: 7,
-    name: "Color Scheme Generator",
-    description:
-      "This is a sample of a Color Scheme Generator. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path",
-    githubLink: "https://github.com/SisiVero/color-scheme-generator",
-    liveLink: "https://profound-brioche-edeccd.netlify.app/",
-    image: color,
-    tags: ["React", "TypeScript","Tailwind CSS"],
-  },
-  {
-    id: 8,
-    name: "Mobile Restaurant",
-    description:
-      "This a mobile restauarnt that displays the menu and price, and totals your order when you are done ordering. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path.",
-    githubLink: "https://github.com/SisiVero/Mobile-restaurant",
-    liveLink: "https://bright-pavlova-d3f7f6.netlify.app/",
-    image: restaurant,
-    tags: ["React", "TypeScript","Tailwind CSS"],
   }
+  // {
+  //   id: 7,
+  //   name: "Color Scheme Generator",
+  //   description:
+  //     "This is a sample of a Color Scheme Generator. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path",
+  //   githubLink: "https://github.com/SisiVero/color-scheme-generator",
+  //   liveLink: "https://profound-brioche-edeccd.netlify.app/",
+  //   image: color,
+  //   tags: ["React", "TypeScript","Tailwind CSS"],
+  // },
+  // {
+  //   id: 8,
+  //   name: "Mobile Restaurant",
+  //   description:
+  //     "This a mobile restauarnt that displays the menu and price, and totals your order when you are done ordering. It is built using vanilla CSS, Javascript and HTML. It was built as a part of Scrimba's Frontend Developer Career Path.",
+  //   githubLink: "https://github.com/SisiVero/Mobile-restaurant",
+  //   liveLink: "https://bright-pavlova-d3f7f6.netlify.app/",
+  //   image: restaurant,
+  //   tags: ["React", "TypeScript","Tailwind CSS"],
+  // }
   
 
 ];
